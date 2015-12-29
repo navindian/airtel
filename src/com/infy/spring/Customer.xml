@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="1.0"   
+        xmlns="http://java.sun.com/xml/ns/persistence/orm"   
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm   
+        http://java.sun.com/xml/ns/persistence/orm_1_0.xsd ">  
+      
+    <entity class="com.infy.spring.CustomerBean">  
+        <table name="mobile_recharge"></table>  
+        <attributes>  
+            <id name="mobileNumber">  
+                <column name="mobileNumber"/>  
+            </id>  
+            <basic name="region">  
+                <column name="region"/>  
+            </basic>  
+            <basic name="amount">  
+                <column name="amount"/>  
+            </basic>  
+             <basic name="email">  
+                <column name="emailId"/>  
+            </basic>
+        </attributes>  
+    </entity>  
+</entity-mappings>
